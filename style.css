@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;  
+}
+
+
+form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.Calculator{
+    display: inline-block;
+    background-color: rgba(29, 30, 116, 0.959);
+    padding: 20px;
+    border-radius: 20px;
+}
+div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    background-color: rgb(11, 26, 77);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 6px rgb(235, 231, 231);
+}
+.dis{
+    background-color: rgba(29, 30, 116, 0.801);
+    width: 100%;
+    outline: 0;
+}
+
+.one input,.one{
+    color: aqua;
+}
+.dernier .onee{
+    position: relative;
+    right: 2px;
+}
+.two{
+    position: relative;
+    right: 5px;
+    
+}
+.three{
+    position: relative;
+    width: 100px;
+    color: aqua;
+}
+input:hover{
+    color:aqua
+}
+
+

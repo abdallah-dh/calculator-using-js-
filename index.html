@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form >
+    <div class="Calculator">
+        <div><input class="dis" type="text" name="display"></div>
+        <br>
+        <div class="one">
+            <input type="button" name="AC " value="AC" onclick="display.value = ''">
+            <input type="button" name="DE" value="DE" onclick="display.value = display.value.slice(0,-1)">
+            <input type="button" name="." value=".">
+            <input type="button" name="9isma" value="/" onclick="display.value += '/'">
+
+        </div>
+      <p></p>
+        <div >
+            <input type="button" name="7"  value="7" >
+            <input type="button" name="8" value="8">
+            <input type="button" name="9" value="9">
+            <input class="one" type="button" name="*" value="*" onclick="display.value += '*'">
+        </div>
+        <p></p>
+        <div >
+            <input type="button" name="4" value="4">
+            <input type="button" name="5" value="5">
+            <input type="button" name="6" value="6">
+            <input class="one" type="button" name="tarh" value="-" onclick="display.value += '-'">
+            
+        </div>
+        <p></p>
+        <div >
+            <input type="button" name="1" value="1">
+            <input type="button" name="2" value="2">
+            <input type="button" name="3" value="3">
+            <input class="one" type="button" name="+" value="+" onclick="display.value += '+'">
+
+        </div>
+        <p></p>
+        <div class="dernier">
+            <input class="onee" type="button" name="00" value="00">
+            <input class="two" type="button" name="0" value="0">
+            <input class="three" type="button" name="=" value="="  onclick="display.value = '='">
+        </div>
+        <p></p>
+
+
+    </div>
+  
+</form>
+<script src="js.js"></script>
+    
+</body>
+</html>
